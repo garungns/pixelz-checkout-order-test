@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pixelz.OrderService", "Pixelz.OrderService", "{139E0C09-0000-4E38-B62B-861CF8160CD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pixelz.PaymentService", "Pixelz.PaymentService", "{69E1CD77-7FD0-402A-9123-ACBAE3FDBF77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pixelz.EmailService", "Pixelz.EmailService", "{A36E0339-363A-407A-8682-0E037B894C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pixelz.ProductionService", "Pixelz.ProductionService", "{03BDD958-5A70-44E7-B15D-D8BF80D4B4A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pixelz.Common", "Pixelz.Common", "{C6687E89-98E8-4072-8E62-7CEAB1CD6959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "Pixelz.OrderService\OrderService\OrderService.csproj", "{1B61D727-B470-4689-8BAB-E4E4C91576C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pixelz.Models", "Pixelz.Common\Pixelz.Models.csproj", "{E136F26A-C9B1-4006-985E-41EAA8C4D8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "Pixelz.PaymentService\PaymentService\PaymentService.csproj", "{60105F3B-D573-43FF-975D-6E4265911553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "Pixelz.EmailService\EmailService\EmailService.csproj", "{0A2ED8DC-5AB9-4B20-BFA5-26CE5154DA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionService", "Pixelz.ProductionService\ProductionService\ProductionService.csproj", "{B1D6462D-230B-4D9E-8C23-06125CAA97F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B61D727-B470-4689-8BAB-E4E4C91576C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B61D727-B470-4689-8BAB-E4E4C91576C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B61D727-B470-4689-8BAB-E4E4C91576C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B61D727-B470-4689-8BAB-E4E4C91576C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E136F26A-C9B1-4006-985E-41EAA8C4D8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E136F26A-C9B1-4006-985E-41EAA8C4D8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E136F26A-C9B1-4006-985E-41EAA8C4D8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E136F26A-C9B1-4006-985E-41EAA8C4D8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60105F3B-D573-43FF-975D-6E4265911553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60105F3B-D573-43FF-975D-6E4265911553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60105F3B-D573-43FF-975D-6E4265911553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60105F3B-D573-43FF-975D-6E4265911553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2ED8DC-5AB9-4B20-BFA5-26CE5154DA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2ED8DC-5AB9-4B20-BFA5-26CE5154DA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2ED8DC-5AB9-4B20-BFA5-26CE5154DA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2ED8DC-5AB9-4B20-BFA5-26CE5154DA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D6462D-230B-4D9E-8C23-06125CAA97F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D6462D-230B-4D9E-8C23-06125CAA97F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D6462D-230B-4D9E-8C23-06125CAA97F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D6462D-230B-4D9E-8C23-06125CAA97F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B61D727-B470-4689-8BAB-E4E4C91576C1} = {139E0C09-0000-4E38-B62B-861CF8160CD4}
+		{E136F26A-C9B1-4006-985E-41EAA8C4D8EF} = {C6687E89-98E8-4072-8E62-7CEAB1CD6959}
+		{60105F3B-D573-43FF-975D-6E4265911553} = {69E1CD77-7FD0-402A-9123-ACBAE3FDBF77}
+		{0A2ED8DC-5AB9-4B20-BFA5-26CE5154DA0E} = {A36E0339-363A-407A-8682-0E037B894C8E}
+		{B1D6462D-230B-4D9E-8C23-06125CAA97F7} = {03BDD958-5A70-44E7-B15D-D8BF80D4B4A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D5F2E5-12EE-4D7A-8EBC-188B7F0789B0}
+	EndGlobalSection
+EndGlobal
